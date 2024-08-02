@@ -78,8 +78,16 @@ h1 {
     color:#17172c;
 }
 
-#trailer {
-    max-width: 100%; 
+.groupPhotoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#groupPhoto {
+    max-height: 720px;
+    max-width: 1280px;
 }
 
 #jobTitle {
